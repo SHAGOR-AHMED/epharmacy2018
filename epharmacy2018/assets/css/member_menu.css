@@ -1,0 +1,61 @@
+.container-fluid{
+    margin: 40px;
+}
+
+.menuu ul {
+/*    float: left;*/
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    margin-left: -30px;
+}
+
+.menuu li {
+    float:center;
+    font-size:14px;
+    padding: 5px;
+    display:block;
+  }
+.menuu li a {
+    display: block;
+    color: #006699;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;    
+/*    border: 1px solid #002e5d;*/
+}
+
+.menuu li a:hover {
+    color: #fff;
+    background-color:013255;
+}
+
+.roww ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.2);
+}
+
+.roww li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.roww li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.roww li a:hover {
+    color: #111;
+}
+
